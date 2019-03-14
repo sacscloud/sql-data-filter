@@ -52,7 +52,7 @@ AND ALL basics SQL operators
 
 ## TEST
 
-`http://127.0.0.1:8081/components/sql-data-filter/`
+`http://127.0.0.1:8081/bower_components/sql-data-filter/`
 
 
 
