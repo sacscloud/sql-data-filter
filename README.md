@@ -12,16 +12,16 @@ bower i --save sacscloud/sql-data-filter
   
   ```
   <sql-data-filter data="[{username: "Jhon",color: "red"},{username: "Charlie",color: "yellow"},{username: "Mark",color: "red"
-}];" sql=""select username from data where color='red'"" result="{{result}}"></sql-data-filter>
+  }];" sql="SELECT username FROM data WHERE color='red'" result="{{result}}"></sql-data-filter>
 ```
 
 ## RESULT 
 ```
-  [{
-username: "jhon"
-},
-{
-username: "mark"
+[{
+  username: "jhon"
+  },
+  {
+  username: "mark"
 }];
 ```
 
