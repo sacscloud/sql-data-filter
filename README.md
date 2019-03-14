@@ -46,6 +46,8 @@ REGEXP
 >=
 %
 +
+
+AND ALL basics SQL operators
 ```
 
 ## TEST
