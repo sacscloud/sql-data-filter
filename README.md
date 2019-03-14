@@ -25,7 +25,7 @@ bower i --save sacscloud/sql-data-filter
 }];
 ```
 
-#OPERATORS
+## OPERATORS
 
 ```
 SELECT
