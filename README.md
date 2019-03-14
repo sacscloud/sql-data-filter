@@ -25,9 +25,34 @@ bower i --save sacscloud/sql-data-filter
 }];
 ```
 
+#OPERATORS
+
+```
+SELECT
+FROM
+WHERE
+AND
+OR
+=
+!=
+BEETWEEN
+IS NOT
+IS NOT NULL
+LIKE
+REGEXP
+<
+>
+<=
+>=
+%
++
+```
+
 ## TEST
 
 `http://127.0.0.1:8081/components/sql-data-filter/`
+
+
 
 
 ## PROPERTIES
