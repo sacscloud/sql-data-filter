@@ -2,7 +2,7 @@
 
 This component will be responsible for filtering a data array
 
-## INSTALATION
+## INSTALL
 
   ```
 bower i --save sacscloud/sql-data-filter
