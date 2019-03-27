@@ -1,0 +1,17 @@
+{
+  "name": "sql-data-filter",
+  "version":"1.0.0",
+  "description": "Filter of JSON type SQL",
+  "main": "sql-data-filter.html",
+  "authors": [
+    "The sacscloud Authors"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.11.3"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#1.0.0"
+  }
+}
