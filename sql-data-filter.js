@@ -34,7 +34,7 @@ Polymer({
         const complexStatement = new RegExp(/^SELECT\s[a-zA-Z]+\sFROM\s[a-zA-Z]+\sWHERE\s[a-zA-Z-0-9]+[=<>!]+[a-zA-Z0-9]/);
 
         if (simpleStatement.test(statement)) {
-            //console.log("SIMPLE CORRECT")
+            //console.log("SIMPLE SENTENCE")
         } else if (complexStatement.test(statement)) {
 
             this.__filterData();
@@ -42,7 +42,6 @@ Polymer({
         } else {
             console.log("Sentencia no valida")
         }
-        return [];
     },
 
     __filterData: function (type) {
@@ -60,7 +59,7 @@ Polymer({
             //console.log("where", where);
 
             this.result = this._getResult(this.data, select, from, where);
-            //console.log("FINAL", this.result)
+            console.log("RESULT", this.result)
 
         } else {
             console.log('simple')
@@ -130,13 +129,7 @@ Polymer({
         const firstElement = where.substring(0, positionOperator);
         const secondElement = where.substring(positionOperator + operator.length, where.length);
 
-        /*console.groupCollapsed();
-
-        console.log("FIRST", firstElement);
-        console.log("SECOND", secondElement)
-        console.log("OPERATOR", operator)
-        console.groupEnd();
-        */
+    
         for (let obj of this.data) {
             for (let key in obj) {
                 if (key === firstElement) {
@@ -155,7 +148,7 @@ Polymer({
     },
 
     _validateCondition: function (token, token2, operator) {
-        //console.log("VALIDATE..................", operator, token, token2)
+
         switch (operator) {
 
             case ">": return token > token2 ? true : false;
